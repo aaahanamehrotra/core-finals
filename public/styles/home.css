@@ -1,0 +1,56 @@
+section {
+  color: white;
+}
+
+.landing {
+  height: 100vh;
+  display: block;
+  width: 100vw;
+  margin: -40px;
+  height: auto;
+  margin: auto;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.abt-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.abt-img {
+  width: 35%;
+  display: block;
+  margin-inline: 80px;
+  margin-block: 120px;
+}
+
+.abt-txt {
+  padding: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  line-height: 32px;
+  flex-direction: column;
+  width: 30%;
+  text-align: justify;
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 900px) {
+  .abt-container {
+    flex-direction: column;
+  }
+  .abt-txt {
+    width: 80%;
+  }
+  .abt-img {
+    margin: auto;
+  }
+}

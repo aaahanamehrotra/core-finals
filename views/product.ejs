@@ -1,0 +1,28 @@
+<div class="main">
+<div class="left">
+<img class="indi-image" src="<%= data.image %>"></img>
+
+
+</div>
+<div class="right">
+  <div class="indi-text">
+    <h1 class="side-h"><%= data.name %></h1>
+    <div class="indi-desc"><%= data.desc %></div>
+    
+<form action="/product/" method="POST">
+  <label for="id" hidden>Username</label>
+  <input
+    hidden
+    type="text"
+    id="id"
+    name="id"
+    value="<%= data._id %>"
+    readonly
+  />
+  <button class="product-buy">Buy</button>
+</form>    
+    
+  </div>
+</div>
+</div>
+<a class="view-all" href="/product">View All </a>

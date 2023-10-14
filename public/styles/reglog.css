@@ -1,0 +1,21 @@
+.reg-form {
+  display: flex;
+  width: 80%;
+  max-width: 300px;
+  margin: auto;
+  flex-direction: column;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.switch {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

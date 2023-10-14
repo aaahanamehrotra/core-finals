@@ -1,0 +1,19 @@
+<h1 class="main-h">Products</h1>
+<div class="products">
+  <% for (let i = 0; i < data.length; i++) { %>
+  <div class="product">
+    <% let x = `product/${data[i]._id}` %>
+    <img class="product-image" src="<%= data[i].image %>"></img>
+    <div class="text">
+
+    <h1 class="product-name"><%= data[i].name %></h1>
+    <div class="product-stock">Price: <%= data[i].cost %></div>
+</div>
+<a href=<%= x %> class="view-link" ><div class="view-btn">View</div>    </a>
+
+</div>
+<div>
+  
+  </div>
+  <% } %>
+</div>
